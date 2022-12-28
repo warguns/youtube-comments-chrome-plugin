@@ -1,0 +1,200 @@
+:root {
+  --grey: #B2B2B2;
+  --red: #AF2A23;
+  --hover-dropdown: #3E3D3D;
+}
+body, html {
+  margin: 0px;
+  background-color: #141414;
+  font-family: 'Roboto';
+  height: min-content;
+}
+body {
+  padding: 24px;
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 14px;
+  border-top: 2px solid var(--red);
+}
+/* Title section */
+#logo {
+  display: inline-block;
+  width: 22px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+#title {
+  display: inline-block;
+  vertical-align: middle
+}
+h1 {
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 700;
+}
+h2 {
+  margin-top: 0px;
+  color: var(--grey);
+  font-size: 13px;
+  font-weight: normal;
+}
+/* Actions */
+#actions {
+  margin-top: 10px;
+}
+#actions button {
+  display: inline-block;
+  height: 40px;
+  border-radius: 5px;
+  width: 48%;
+  text-align: center;
+  font-weight: 600;
+  line-height: 40px;
+  border: 0px;
+  outline: 0px;
+  font-size: 13px;
+}
+#actions button img {
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 7px;
+  margin-top: -2px;
+}
+
+
+.full-width {
+  width: 100%!important;
+}
+
+#contact-us {
+  height: 40px;
+  background-color: var(--red);
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 15px;
+  margin-top: 15px;
+  width: 100px;
+}
+#contact-us:hover {
+  cursor: pointer;
+}
+#different-options {
+  margin-top: 10px;
+}
+#different-options input {
+  display: inline-block;
+  height: 45px;
+  background-color: #141414;
+  margin-left: 15px;
+  width: 150px;
+  border: none!important;
+  text-indent: 150x;
+}
+#upload-srt {
+  height: 40px;
+  display: inline-block;
+  margin-left: 10px;
+  background-color: var(--red);
+  color: #FFF;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+::placeholder {
+  opacity: 1;
+  color: #B2B2B2;
+}
+h3 {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+#help {
+  position: absolute;
+  top: 22px;
+  right: 20px;
+  opacity: .5;
+  transition: opacity .2s cubic-bezier(.05,.03,.35,1);
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+#help img {
+  width: 18px;
+}
+#help:hover {
+  opacity: 1!important;
+  cursor: pointer;
+}
+/* Help section */
+#help-popup {
+  position: absolute;
+  top: 50px;
+  right: 24px;
+  background-color: #262626;
+  border-radius: 5px;
+  width: 150px;
+  z-index: 999999;
+  visibility: hidden;
+}
+#help-popup p {
+  color: #FFF;
+  font-size: 14px;
+  height: 40px;
+  text-indent: 15px;
+  line-height: 40px;
+  margin: 0px;
+}
+#help-popup p:hover {
+  cursor: pointer;
+  background-color: var(--hover-dropdown);
+}
+.show-help {
+  visibility: visible!important;
+}
+
+.container {
+  margin-top: 15px;
+  color: white;
+}
+
+label {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Footer */
+#footer {
+  color: var(--grey);
+  font-size: 13px;
+  text-align: center;
+  margin-top: 15px;
+}
+hr {
+  height: 1px;
+  border: none;
+  outline: none;
+  background-color: #303030;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 15px;
+  opacity: .5;
+}
+#footer p {
+  margin-top: 7px;
+}
+#footer span {
+  color: #FFF;
+  font-weight: 500;
+}
+#footer span:hover {
+  cursor: pointer;
+}

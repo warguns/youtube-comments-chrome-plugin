@@ -1,0 +1,7 @@
+#commentMood {
+    color: black;
+}
+
+#commentMood.dark {
+    color: white;
+}
